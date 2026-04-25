@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'notas-backend-production-9cb5.up.railway.app'; 
+const BASE_URL = 'https://notas-backend-production-9cb5.up.railway.app';
 
 export const consultarEstudiante = (cedula) =>
   axios.get(`${BASE_URL}/estudiantes/${cedula}`);
